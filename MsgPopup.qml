@@ -98,8 +98,8 @@ Popup {
                     msgpopup.close()
                     msgpopup.no()
                 }
-                Material.foreground: "#c51a4a"
-                Material.background: "#ffffff"
+                Material.foreground: "#ffffff"
+                Material.background: "#c51a4a"
                 font.family: roboto.name
                 visible: msgpopup.noButton
                 Accessible.onPressAction: clicked()
